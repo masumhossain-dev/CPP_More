@@ -4,7 +4,7 @@ using namespace std;
 int displayArray(int arr[], int arrSize);
 int main() {
     int arrSize, result;
-    cout << "How many numbers you want to sum?: ";
+    cout << "How many numbers you want to sum (e.g. 10)?: ";
     cin >> arrSize;
     cout << "Enter that " << arrSize << " numbers: ";
     int arr[arrSize];

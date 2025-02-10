@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstdlib>
-#include <cmath>
 using namespace std;
 
 int main() {
@@ -10,7 +9,7 @@ while (1) {
     cout << "Enter your guess number: " << endl;
     cin >> guessNumber;
 
-    guessNumber = 1 + rand() % 5;
+    randomNumbr = 1 + rand() % 5;
 
     if (randomNumbr == guessNumber) {
         cout << "You Have Won!" << endl;

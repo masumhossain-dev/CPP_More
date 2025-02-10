@@ -49,8 +49,8 @@ cmake_ninja_workdir = /home/masum-hossain/Desktop/CPP_More/cmake-build-debug/
 
 build cmake_object_order_depends_target_CPP_More: phony || .
 
-build CMakeFiles/CPP_More.dir/functionOverloading.cpp.o: CXX_COMPILER__CPP_More_unscanned_Debug /home/masum-hossain/Desktop/CPP_More/functionOverloading.cpp || cmake_object_order_depends_target_CPP_More
-  DEP_FILE = CMakeFiles/CPP_More.dir/functionOverloading.cpp.o.d
+build CMakeFiles/CPP_More.dir/arrayPassInFunction.cpp.o: CXX_COMPILER__CPP_More_unscanned_Debug /home/masum-hossain/Desktop/CPP_More/arrayPassInFunction.cpp || cmake_object_order_depends_target_CPP_More
+  DEP_FILE = CMakeFiles/CPP_More.dir/arrayPassInFunction.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/CPP_More.dir
   OBJECT_FILE_DIR = CMakeFiles/CPP_More.dir
@@ -63,7 +63,7 @@ build CMakeFiles/CPP_More.dir/functionOverloading.cpp.o: CXX_COMPILER__CPP_More_
 #############################################
 # Link the executable CPP_More
 
-build CPP_More: CXX_EXECUTABLE_LINKER__CPP_More_Debug CMakeFiles/CPP_More.dir/functionOverloading.cpp.o
+build CPP_More: CXX_EXECUTABLE_LINKER__CPP_More_Debug CMakeFiles/CPP_More.dir/arrayPassInFunction.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/CPP_More.dir
   POST_BUILD = :
